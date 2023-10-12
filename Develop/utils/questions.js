@@ -1,7 +1,7 @@
 const licenses = require('./licenseQuestions.js');
 
 
-//Create an array of questions for user input
+//Array of questions for user input for use by Inquirer
 const questions = [
     {
         type:'input',
