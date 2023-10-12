@@ -4,6 +4,9 @@
 ## Description
 Produce [Professional README files](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) in correct markdown with this convenient command-line questionnaire and README generator. 
 
+[JWhit README Generator.webm.mov](https://github.com/jwhit-commit/jwhit-readme-generator/assets/28734055/d6600c17-afd1-4441-85df-de9fadcfce4a)
+
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
