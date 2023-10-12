@@ -14,13 +14,14 @@ Produce [Professional README files](https://coding-boot-camp.github.io/full-stac
 - [Questions](#questions)
 
 ## Installation
-```git clone git@github.com:jwhit-commit/jwhit-readme-generator.git```
+`git clone git@github.com:jwhit-commit/jwhit-readme-generator.git`
 
 ## Usage
 Once installed, launch index.js in the terminal. Answer the questionnaire in the command line, then the program will structure your answers into a professional README.md.
 
 Example:
-```$ node index.js
+```javascript
+$ node index.js
 ? What is title of your program? Chess AI
 ? Which license is your program offered under? Boost Software License 1.0
 ? Describe your program. This artificial intelligence is designed to an artificial player skilled enough to challenge high-level chess competitors.
@@ -30,7 +31,8 @@ Example:
 ? How does one test this program functionality? To test, simply initialize in-app and play a sample game!
 ? What is your GitHub username? jwhit-commit
 ? What is your email address? joshwhitaker18@gmail.com
-README generated```
+README generated
+```
 
 ## License
 This is distributed under The MIT License. [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
