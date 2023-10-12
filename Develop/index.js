@@ -1,19 +1,19 @@
 // Packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const functions = require('./utils/functions.js');
+const genMarkdown = require('./utils/genMarkdown.js');
 const questions = require('./utils/questions.js');
-
 
 
 inquirer
     .prompt(questions.questions)
-    .then((response) =>
-        fs.writeFile('genREADME.md',
-        functions.genMarkdown(response),
-        (err) =>
-            err ? console.log(err) : console.log('success')
-        ));
+    .then((response) => 
+        fs.writeFile(
+            'genREADME.md',
+            genMarkdown.genMarkdown(response),
+            (err) => err ? console.log(err) : console.log('success')
+            )
+        );
 
 
 
