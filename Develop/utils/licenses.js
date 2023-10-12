@@ -1,3 +1,4 @@
+// Object containing all licenses and related properties
 const licenses = {
     apache: {
         name: "Apache 2.0",

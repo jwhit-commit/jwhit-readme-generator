@@ -1,5 +1,6 @@
 const licenses = require('./licenses.js');
 
+//Function to look up license URL and Badge SVG by license name
 const findLicense = function(licenseName) {
     for (let [key,obj] of Object.entries(licenses.licenses)) {
 
@@ -12,6 +13,3 @@ const findLicense = function(licenseName) {
 module.exports = {
     findLicense
 };
-
-// var arr = findLicense("The MIT License");
-// console.log(arr)
