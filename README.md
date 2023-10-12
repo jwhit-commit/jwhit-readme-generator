@@ -20,7 +20,7 @@ Produce [Professional README files](https://coding-boot-camp.github.io/full-stac
 Once installed, launch index.js in the terminal. Answer the questionnaire in the command line, then the program will structure your answers into a professional README.md.
 
 Example:
-```javascript
+```
 $ node index.js
 ? What is title of your program? Chess AI
 ? Which license is your program offered under? Boost Software License 1.0
