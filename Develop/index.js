@@ -8,7 +8,7 @@ inquirer
     .prompt(questions.questions)
     .then((response) => 
         fs.writeFile(
-            'genREADME2.md',
+            'genREADME.md',
             genMarkdown.genMarkdown(response),
             (err) => err ? console.log(err) : console.log('README generated')
             )
